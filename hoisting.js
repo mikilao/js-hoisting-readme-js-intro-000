@@ -11,11 +11,12 @@
 
 function crazy() {
   // fix the code in here:
-  thisIsCrazy();
+
 
   var thisIsCrazy = function thisIsCrazy(){
     console.log("hey!!!")
   }
+  thisIsCrazy();
 }
 
 function sayMyName() {
@@ -24,8 +25,9 @@ function sayMyName() {
 
   sayMy();
 
-  sayMy => () {
+  function sayMy() {
+    var name = "Kristin";
     console.log(name);
-    name = "Kristin";
+    
   }
 }
